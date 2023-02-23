@@ -19,7 +19,7 @@ import java.util.Date;
 
 public class NewsAppApi {
     public static void main(String[] args) throws Exception {
-        String apiKey = "79dd0123a2fe401ab7f45ab902ad6ef1";
+        String apiKey = "";
         String url = "https://newsapi.org/v2/top-headlines?country=br&apiKey=" + apiKey;
         HttpGet httpGet = new HttpGet(url);
         HttpClient httpclient = HttpClients.createDefault();
